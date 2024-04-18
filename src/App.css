@@ -1,3 +1,41 @@
+body {
+  background-color: #181818;
+}
+
 .App {
+  min-height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+img.logo {
+  display: inline;
+  width: 10em;
+  height: 10em;
+  margin-top: 3em;
+  margin-right: 0.5em;
+}
+
+.title {
+  color: #bdbda9;
+  font-family: "Platypi", serif;
+  font-size: 10em;
+  margin: 0em;
+}
+
+.subtitle {
+  color: #bdbda9;
+  font-family: "Oswald", sans-serif;
+  font-size: 5em;
+  margin: 0em;
 }
